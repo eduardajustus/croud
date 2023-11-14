@@ -1,0 +1,22 @@
+body{
+    background-color:royalblue;
+}
+div{
+    width: 300px;
+    height: 140px;
+    background: rgba( 126, 177, 141, 0.2 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 8.5px );
+-webkit-backdrop-filter: blur( 8.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+margin-top: 200px;
+    margin-left: 527px;
+    background-color: rgb(166, 171, 218);
+}
+#btn{
+    margin-top:10px;
+    margin-left:120px;
+    background-color: aliceblue;
+    color: royalblue;
+}
