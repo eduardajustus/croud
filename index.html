@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="myForm">
+        <label for="input1">Usuário</label>
+        <input type="text" placeholder="Digite seu nome" id="input1">
+        <br>
+        <label for="input2">Email</label>
+        <input type="email" placeholder="Digite seu email" id="input2">
+        <br>
+        <label for="input3">Senha</label>
+        <input type="password" placeholder="Digite sua senha" id="input3">
+        <br>
+        <label for="input4">Música</label>
+        <input type="text" placeholder="Digite sua música predileta" id="input4">
+        <br>
+        <label for="input5">Filme</label>
+        <input type="text" placeholder="Digite seu filme predileto" id="input5">
+        <br>
+        <button id="btn" type="submit" onclick="enviar()">Enviar</button>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+    <script src="firebase.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
